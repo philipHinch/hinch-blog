@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: cadetblue;
+  border-bottom: 2px solid black;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+}
+
+.main-title {
+  color: black;
+  border: 2px solid black;
+  padding: 8px 30px;
+}
+
+ul.menu-list {
+  display: flex;
+  align-items: center;
+  padding: 8px 30px;
+}
+
+ul li a {
+  color: aliceblue;
+  margin: 20px;
+  font-size: 1.1rem;
+}
+
+ul li a:hover {
+  color: cyan;
+}
